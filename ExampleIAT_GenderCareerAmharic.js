@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://github.com/sreelakshmipap/GenderCareerIAT/blob/main/ChigignTobiyaGenCarAmharicIAT.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://sreelakshmipap.github.io/GenderCareerIAT/main/ChigignTobiyaGenCarAmharicIAT.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
@@ -79,7 +79,7 @@ define(['pipAPI', 'https://github.com/sreelakshmipap/GenderCareerIAT/blob/main/C
 		},
 
 		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/'
+			image : 'https://sreelakshmipap.github.io/GenderCareerIAT/image/'
 		} 
 	});
 });
