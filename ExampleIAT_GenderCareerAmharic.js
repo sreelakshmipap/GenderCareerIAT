@@ -43,36 +43,36 @@ define(['pipAPI', 'https://sreelakshmipap.github.io/GenderCareerIAT/quiat9Amhari
 		},
 		attribute1 :
 		{
-			name : 'Male',
+			name : 'ወንድ',
 			title : {
-				media : {word : 'Male'},
+				media : {word : 'ወንድ'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-            	{word: 'Elias'},
-				{word: 'Binyam'},
-				{word: 'Tesfahun'},
-				{word: 'Girma'},
-				{word: 'Addisu'}
+            	{word: 'ኤሊያስ'},
+				{word: 'ቢንያም'},
+				{word: 'ተስፋሁን'},
+				{word: 'ግርማ'},
+				{word: 'አዲሱ'}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 		},
 		attribute2 :
 		{
-			name : 'Female',
+			name : 'ሴት',
 			title : {
-				media : {word : 'Female'},
+				media : {word : 'ሴት'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-          {word: 'Eden'},
-				{word: 'Aster'},
-				{word: 'Almaz'},
-				{word: 'Sara'},
-				{word: 'Fikir'}
+          {word: 'ኤደን'},
+				{word: 'አስቴር'},
+				{word: 'አልማዝ'},
+				{word: 'ሳራ'},
+				{word: 'ፍቅር'}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
