@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://github.com/sreelakshmipap/GenderCareerIAT/blob/main/ChigignTobiyaGenCarIAT.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://sreelakshmipap.github.io/GenderCareerIAT/quiat9Amharic_final.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
