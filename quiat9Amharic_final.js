@@ -161,7 +161,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			
 			instWidth : 99, //The width of the instructions stimulus
             
-			finalText : 'ወደ ሚቀጥለው ተግባር ለመሄድ የኮፒዪተሩን <b>"ስፔስ"</b> ቁልፍ ተጫኚ/ን ', 
+			finalText : 'ወደ ሚቀጥለው ተግባር ለመሄድ የኮፒዪተሩን "ስፔስ" ቁልፍ ተጫኚ/ን', 
 			finalTouchText : 'ወደ ቀጣዩ ተግባራ ለመሄድ  ከታች ያለዉን በአረንጓዴ ቀለም የተጻፈውን ቦታ (ቃል) ንኪ/ካ',
 
 			touchMaxStimulusWidth : '50%', 
