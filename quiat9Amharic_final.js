@@ -176,11 +176,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'የግራ ጣትሽ/ህን  አኑሪ/ር <b>E</b> በምድቡ ውስጥ ለሚካተቱ ዝርዝር ነገሮችን መለያ ቁልፍ  <font color="#0000ff">leftAttribute.</font>' +
-				'<br/>የቀኝ ጣትሽን/ህን  አኑሪ/ር <b>I</b> በምድቡ ውስጥ ለሚካተቱ ዝርዝር ነገሮችን መለያ ቁልፍ <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
+				'በ <font color="#0000ff">leftAttribute.</font> ምድብ ውስጥ ለሚካተቱ ዝርዝር ነገሮች የግራ ጣትሽ/ህን <b>E</b>  መለያ ቁልፍ ላይ አኑሪ/ር.' +
+				'<br/>በ <font color="#0000ff">rightAttribute</font>  ምድብ ውስጥ ለሚካተቱ ዝርዝር ነገሮች የቀኝ  ጣትሽ/ህን <b>I</b> መለያ ቁልፍ ላይ አኑሪ/ር.<br/><br/>' +
 				'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. ' +
 				'ለመቀጠል ሌላውን ቁልፍ ይጫኑ.<br/>' +
-				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u> ትክክል ከሆንሽ/ክ.<br/><br/></p>'+
+				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>'+
 				'<p align="center">ለመጀመር ዝግጁ ስትሆኚ/ን <b>"ስፔስ"</b> ቁልፍ ተጫኚ/ን .</font></p></div>',
 			instAttributePracticeTouch: [
 				'<div>',
@@ -193,7 +193,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'በምድቡ <b>right</b> የሚካተቱ ዝርዝር ነገሮችን ምላሽ ለመስጠት የቀኝ ጣትሽን/ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር <font color="#0000ff">rightAttribute</font>.<br/>',
 						'በአንድ ጊዜ አንድ ነገር  (ቃል)  ብቻ ይመጣል.<br/>',
 						'<br/>',
-						'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u> ትክክል ከሆንሽ/ክ.',
+						'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.',
 					'</p>',
 					'<p align="center">ወደ ቀጣዩ ተግባራ ለመሄድ  ከታች ያለዉን በአረንጓዴ ቀለም የተጻፈውን ቦታ (ቃል) ንኪ/ካ.</p>',
 				'</div>'
@@ -202,12 +202,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'የግራ ጣትሽ/ህን  አኑሪ/ር <b>E</b> በምድቡ ውስጥ ለሚካተቱ ዝርዝር ነገሮችን መለያ ቁልፍ  <font color="#336600">leftCategory</font>. ' +
-				'<br/>የቀኝ ጣትሽን/ህን  አኑሪ/ር <b>I</b> በምድቡ ውስጥ ለሚካተቱ ዝርዝር ነገሮችን መለያ ቁልፍ <font color="#336600">rightCategory</font>.<br/>' +
+				'በ <font color="#336600">leftCategory</font> ምድብ ውስጥ ለሚካተቱ ዝርዝር ነገሮች የግራ ጣትሽ/ህን <b>E</b>  መለያ ቁልፍ ላይ አኑሪ/ር. ' +
+				'<br/>በ <font color="#336600">rightCategory</font> ምድብ ውስጥ ለሚካተቱ ዝርዝር ነገሮች የቀኝ  ጣትሽ/ህን <b>I</b> መለያ ቁልፍ ላይ አኑሪ/ር.<br/>' +
 				'በአንድ ጊዜ አንድ ነገር  (ቃል)  ብቻ ይመጣል.<br/><br/>' +
 				'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. ' +
 				'ለመቀጠል ሌላውን ቁልፍ ይጫኑ.<br/>' +
-				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u> ትክክል ከሆንሽ/ክ.<br/><br/></p>'+
+				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>'+
 				'<p align="center">ለመጀመር ዝግጁ ስትሆኚ/ን <b>"ስፔስ"</b> ቁልፍ ተጫኚ/ን .</font></p></div>',
 			instCategoriesPracticeTouch: [
 				'<div>',
@@ -220,7 +220,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'በምድቡ <b>right</b> የሚካተቱ ዝርዝር ነገሮችን ምላሽ ለመስጠት የቀኝ ጣትሽን/ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር <font color="#336600">rightCategory</font>.<br/>',
 						'በአንድ ጊዜ አንድ ነገር  (ቃል)  ብቻ ይመጣል.<br/>',
 						'<br/>',
-						'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u> ትክክል ከሆንሽ/ክ.',
+						'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.',
 					'</p>',
 					'<p align="center">ወደ ቀጣዩ ተግባራ ለመሄድ  ከታች ያለዉን በአረንጓዴ ቀለም የተጻፈውን ቦታ (ቃል) ንኪ/ካ.</p>',
 				'</div>'
@@ -229,12 +229,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instFirstCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Use the <b>E</b> key for <font color="#336600">leftCategory</font> and for <font color="#0000ff">leftAttribute</font>.<br/>' +
-				'Use the <b>I</b> key for <font color="#336600">rightCategory</font> and for  <font color="#0000ff">rightAttribute</font>.<br/>' +
+				'<b>E</b> መለያ ቁልፍ ለ <font color="#336600">leftCategory</font> እና  ለ <font color="#0000ff">leftAttribute</font> ተጠቀሚ/ም.<br/>' +
+				'<b>I</b> መለያ ቁልፍ ለ <font color="#336600">rightCategory</font> እና  ለ <font color="#0000ff">rightAttribute</font> ተጠቀሚ/ም.<br/>' +
 				'እያንዳንድ ዝርዝር  ነገር  (ቃል) በአንድ ምድብ ውስጥ ብቻ ነው ሊመደብ የሚችለው.<br/><br/>' +
 				'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. ' +
 				'ለመቀጠል ሌላውን ቁልፍ ይጫኑ.<br/>' + 
-				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u> ትክክል ከሆንሽ/ክ.<br/><br/></p>' +
+				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>' +
 				'<p align="center">ለመጀመር ዝግጁ ስትሆኚ/ን <b>"ስፔስ"</b> ቁልፍ ተጫኚ/ን .</font></p></div>',
 			instFirstCombinedTouch:[
 				'<div>',
@@ -246,7 +246,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'<p align="left" style="margin-left:5px">',
 						'በምድቡ የሚካተቱ <b>left</b> ምላሽ ለመስጠት የግራ ጣትሽን/ ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር  for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.</br>',
 						'በምድቡ  <b>right</b> የሚካተቱ ዝርዝር ነገሮችን ምላሽ ለመስጠት የቀኝ ጣትሽን/ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.</br>',
-							'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u> ትክክል ከሆንሽ/ክ.</br>',
+							'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.</br>',
 						'</p>',
 						'<p align="center">ወደ ቀጣዩ ተግባራ ለመሄድ  ከታች ያለዉን በአረንጓዴ ቀለም የተጻፈውን ቦታ (ቃል) ንኪ/ካ.</p>',
 				'</div>'
@@ -256,10 +256,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'ይህ ከቀዳሚው ክፍል ጋር የሚመሳሰል ነው.<br/>' +
-				'Use the <b>E</b> key for <font color="#336600">leftCategory</font> and for <font color="#0000ff">leftAttribute</font>.<br/>' +
-				'Use the <b>I</b> key for <font color="#336600">rightCategory</font> and for  <font color="#0000ff">rightAttribute</font>.<br/>' +
+				'<b>E</b> መለያ ቁልፍ ለ <font color="#336600">leftCategory</font> እና  ለ <font color="#0000ff">leftAttribute</font> ተጠቀሚ/ም.<br/>' +
+				'<b>I</b> መለያ ቁልፍ ለ <font color="#336600">rightCategory</font>  እና  ለ <font color="#0000ff">rightAttribute</font> ተጠቀሚ/ም.<br/>' +
 				'እያንዳንድ ዝርዝር  ነገር  (ቃል) በአንድ ምድብ ውስጥ ብቻ ነው ሊመደብ የሚችለው.<br/><br/>' +
-				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u> ትክክል ከሆንሽ/ክ.<br/><br/></p>' +
+				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>' +
 				'<p align="center">ለመጀመር ዝግጁ ስትሆኚ/ን <b>"ስፔስ"</b> ቁልፍ ተጫኚ/ን .</font></p></div>',
 			instSecondCombinedTouch:[
 				'<div>',
@@ -271,7 +271,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'በምድቡ የሚካተቱ <b>left</b> ምላሽ ለመስጠት የግራ ጣትሽን/ ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር  for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.<br/>',
 						'በምድቡ  <b>right</b> የሚካተቱ ዝርዝር ነገሮችን ምላሽ ለመስጠት የቀኝ ጣትሽን/ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.<br/>',
 						'<br/>',
-						'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u> ትክክል ከሆንሽ/ክ.<br/>',
+						'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/>',
 					'</p>',
 					'<p align="center">Touch the <b>lower </b> green area to start.</p>',
 				'</div>'
@@ -281,9 +281,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'<b>አስተውይ/ል፣ የመለያ ቁልፎቹ ቦታ ተቀያይሯል!</b><br/>' +
-				'የግራ ጣትሽ/ህን  አኑሪ/ር <b>E</b> በምድቡ ውስጥ ለሚካተቱ ዝርዝር ነገሮችን መለያ ቁልፍ  <font color="#336600">leftCategory</font>.<br/>' +
-				'የቀኝ ጣትሽን/ህን  አኑሪ/ር <b>I</b> በምድቡ ውስጥ ለሚካተቱ ዝርዝር ነገሮችን መለያ ቁልፍ <font color="#336600">rightCategory</font>.<br/><br/>' +
-				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u> ትክክል ከሆንሽ/ክ.<br/><br/></p>' +
+				'በ <font color="#336600">leftCategory</font> ምድብ ውስጥ ለሚካተቱ ዝርዝር ነገሮች የግራ ጣትሽ/ህን <b>E</b> መለያ ቁልፍ ላይ አኑሪ/ር.<br/>' +
+				'በ <font color="#336600">rightCategory</font> ምድብ ውስጥ ለሚካተቱ ዝርዝር ነገሮች የቀኝ  ጣትሽ/ህን <b>I</b> መለያ ቁልፍ ላይ አኑሪ/ር.<br/><br/>' +
+				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>' +
 				'<p align="center">ለመጀመር ዝግጁ ስትሆኚ/ን <b>"ስፔስ"</b> ቁልፍ ተጫኚ/ን .</font></p></div>',
 			instSwitchCategoriesTouch: [
 				'<div>',
@@ -297,7 +297,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 							'በምድቡ  <b>right</b> የሚካተቱ ዝርዝር ነገሮችን ምላሽ ለመስጠት የቀኝ ጣትሽን/ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር for <font color="#336600">rightCategory</font> items.<br/>',
 							'በአንድ ጊዜ አንድ ነገር  (ቃል)  ብቻ ይመጣል.',
 							'<br/>',
-							'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u> ትክክል ከሆንሽ/ክ.<br/>',
+							'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/>',
 						'</p>',
 						'<p align="center">Touch the <b>lower </b> green area to start.</p>',
 				'</div>'
