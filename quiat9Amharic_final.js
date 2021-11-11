@@ -180,7 +180,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<br/>በ <font color="#0000ff">rightAttribute</font>  ምድብ ውስጥ ለሚካተቱ ዝርዝር ነገሮች የቀኝ  ጣትሽ/ህን <b>I</b> መለያ ቁልፍ ላይ አኑሪ/ር.<br/><br/>' +
 				'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. ' +
 				'ለመቀጠል ሌላውን ቁልፍ ይጫኑ.<br/>' +
-				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>'+
+				'<u>በትክክል ሆኖም በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>'+
 				'<p align="center">ለመጀመር ዝግጁ ስትሆኚ/ን <b>"ስፔስ"</b> ቁልፍ ተጫኚ/ን .</font></p></div>',
 			instAttributePracticeTouch: [
 				'<div>',
@@ -193,7 +193,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'በምድቡ <b>right</b> የሚካተቱ ዝርዝር ነገሮችን ምላሽ ለመስጠት የቀኝ ጣትሽን/ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር <font color="#0000ff">rightAttribute</font>.<br/>',
 						'በአንድ ጊዜ አንድ ነገር  (ቃል)  ብቻ ይመጣል.<br/>',
 						'<br/>',
-						'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.',
+						'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በትክክል ሆኖም በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.',
 					'</p>',
 					'<p align="center">ወደ ቀጣዩ ተግባራ ለመሄድ  ከታች ያለዉን በአረንጓዴ ቀለም የተጻፈውን ቦታ (ቃል) ንኪ/ካ.</p>',
 				'</div>'
@@ -207,7 +207,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'በአንድ ጊዜ አንድ ነገር  (ቃል)  ብቻ ይመጣል.<br/><br/>' +
 				'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. ' +
 				'ለመቀጠል ሌላውን ቁልፍ ይጫኑ.<br/>' +
-				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>'+
+				'<u>በትክክል ሆኖም በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>'+
 				'<p align="center">ለመጀመር ዝግጁ ስትሆኚ/ን <b>"ስፔስ"</b> ቁልፍ ተጫኚ/ን .</font></p></div>',
 			instCategoriesPracticeTouch: [
 				'<div>',
@@ -220,7 +220,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'በምድቡ <b>right</b> የሚካተቱ ዝርዝር ነገሮችን ምላሽ ለመስጠት የቀኝ ጣትሽን/ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር <font color="#336600">rightCategory</font>.<br/>',
 						'በአንድ ጊዜ አንድ ነገር  (ቃል)  ብቻ ይመጣል.<br/>',
 						'<br/>',
-						'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.',
+						'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በትክክል ሆኖም በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.',
 					'</p>',
 					'<p align="center">ወደ ቀጣዩ ተግባራ ለመሄድ  ከታች ያለዉን በአረንጓዴ ቀለም የተጻፈውን ቦታ (ቃል) ንኪ/ካ.</p>',
 				'</div>'
@@ -234,7 +234,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'እያንዳንድ ዝርዝር  ነገር  (ቃል) በአንድ ምድብ ውስጥ ብቻ ነው ሊመደብ የሚችለው.<br/><br/>' +
 				'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. ' +
 				'ለመቀጠል ሌላውን ቁልፍ ይጫኑ.<br/>' + 
-				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>' +
+				'<u>በትክክል ሆኖም በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>' +
 				'<p align="center">ለመጀመር ዝግጁ ስትሆኚ/ን <b>"ስፔስ"</b> ቁልፍ ተጫኚ/ን .</font></p></div>',
 			instFirstCombinedTouch:[
 				'<div>',
@@ -246,7 +246,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'<p align="left" style="margin-left:5px">',
 						'በምድቡ የሚካተቱ <b>left</b> ምላሽ ለመስጠት የግራ ጣትሽን/ ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር  for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.</br>',
 						'በምድቡ  <b>right</b> የሚካተቱ ዝርዝር ነገሮችን ምላሽ ለመስጠት የቀኝ ጣትሽን/ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.</br>',
-							'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.</br>',
+							'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በትክክል ሆኖም በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.</br>',
 						'</p>',
 						'<p align="center">ወደ ቀጣዩ ተግባራ ለመሄድ  ከታች ያለዉን በአረንጓዴ ቀለም የተጻፈውን ቦታ (ቃል) ንኪ/ካ.</p>',
 				'</div>'
@@ -259,7 +259,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<b>E</b> መለያ ቁልፍ ለ <font color="#336600">leftCategory</font> እና  ለ <font color="#0000ff">leftAttribute</font> ተጠቀሚ/ም.<br/>' +
 				'<b>I</b> መለያ ቁልፍ ለ <font color="#336600">rightCategory</font>  እና  ለ <font color="#0000ff">rightAttribute</font> ተጠቀሚ/ም.<br/>' +
 				'እያንዳንድ ዝርዝር  ነገር  (ቃል) በአንድ ምድብ ውስጥ ብቻ ነው ሊመደብ የሚችለው.<br/><br/>' +
-				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>' +
+				'<u>በትክክል ሆኖም በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>' +
 				'<p align="center">ለመጀመር ዝግጁ ስትሆኚ/ን <b>"ስፔስ"</b> ቁልፍ ተጫኚ/ን .</font></p></div>',
 			instSecondCombinedTouch:[
 				'<div>',
@@ -271,7 +271,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'በምድቡ የሚካተቱ <b>left</b> ምላሽ ለመስጠት የግራ ጣትሽን/ ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር  for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.<br/>',
 						'በምድቡ  <b>right</b> የሚካተቱ ዝርዝር ነገሮችን ምላሽ ለመስጠት የቀኝ ጣትሽን/ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.<br/>',
 						'<br/>',
-						'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/>',
+						'<u>በትክክል ሆኖም በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/>',
 					'</p>',
 					'<p align="center">Touch the <b>lower </b> green area to start.</p>',
 				'</div>'
@@ -283,7 +283,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<b>አስተውይ/ል፣ የመለያ ቁልፎቹ ቦታ ተቀያይሯል!</b><br/>' +
 				'በ <font color="#336600">leftCategory</font> ምድብ ውስጥ ለሚካተቱ ዝርዝር ነገሮች የግራ ጣትሽ/ህን <b>E</b> መለያ ቁልፍ ላይ አኑሪ/ር.<br/>' +
 				'በ <font color="#336600">rightCategory</font> ምድብ ውስጥ ለሚካተቱ ዝርዝር ነገሮች የቀኝ  ጣትሽ/ህን <b>I</b> መለያ ቁልፍ ላይ አኑሪ/ር.<br/><br/>' +
-				'<u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>' +
+				'<u>በትክክል ሆኖም በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/><br/></p>' +
 				'<p align="center">ለመጀመር ዝግጁ ስትሆኚ/ን <b>"ስፔስ"</b> ቁልፍ ተጫኚ/ን .</font></p></div>',
 			instSwitchCategoriesTouch: [
 				'<div>',
@@ -297,7 +297,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 							'በምድቡ  <b>right</b> የሚካተቱ ዝርዝር ነገሮችን ምላሽ ለመስጠት የቀኝ ጣትሽን/ህን በአረንጓዴ ቀለም በተጻፈው ቦታ (ቃል) ላይ አኑሪ/ር for <font color="#336600">rightCategory</font> items.<br/>',
 							'በአንድ ጊዜ አንድ ነገር  (ቃል)  ብቻ ይመጣል.',
 							'<br/>',
-							'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/>',
+							'ስህተት ከሰራሽ/ህ ፣ ቀይ <font color="#ff0000"><b>X</b></font> ምልክት ይመጣል. በሌላኛው ጎን ያለውን ቀስት ተጫኚ/ን. <u>በትክክል ሆኖም በቻልሽው/ከው መጠን ፍጠኚ/ን</u>.<br/>',
 						'</p>',
 						'<p align="center">Touch the <b>lower </b> green area to start.</p>',
 				'</div>'
